@@ -35,11 +35,11 @@
         <origin xyz="0 .160 0"/>
     </joint>
 
-    <!-- Length: 310mm (approx), 
-    width: 160mm, 
-    height: 164mm,
-    side panel extrusion: 20mm
-    middle length (bottom): 120mm -->
+    <!-- Length= 310mm (approx), 
+    width= 160mm, 
+    height= 164mm,
+    side panel extrusion= 20mm
+    middle length (bottom)= 120mm -->
     <link name="chassis">
         <visual>
             <origin xyz=".060 -.228 0"/>
