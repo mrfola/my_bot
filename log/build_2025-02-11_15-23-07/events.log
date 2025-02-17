@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.004187] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.005890] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.096070] (-) TimerEvent: {}
+[0.140289] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.148033] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/fola/bot_ws/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fola/bot_ws/src/my_bot/install/my_bot'], 'cwd': '/home/fola/bot_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'fola'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs/lib:/home/fola/bot_ws/install/diffdrive_arduino/lib:/home/fola/bot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fola'), ('OLDPWD', '/home/fola'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1001'), ('SYSTEMD_EXEC_PID', '1154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fola/bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fola'), ('JOURNAL_STREAM', '8:21121'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fola:@/tmp/.ICE-unix/1127,unix/fola:/tmp/.ICE-unix/1127'), ('INVOCATION_ID', 'd4ac33606eff4242a06453a8345a6858'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.73MO12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1919c12-d32a-400f-807d-0d6d5a221850'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fola/bot_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fola/bot_ws/build/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/fola/bot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.199662] (-) TimerEvent: {}
+[0.303252] (-) TimerEvent: {}
+[0.405682] (-) TimerEvent: {}
+[0.507668] (-) TimerEvent: {}
+[0.609763] (-) TimerEvent: {}
+[0.711992] (-) TimerEvent: {}
+[0.821535] (-) TimerEvent: {}
+[0.923475] (-) TimerEvent: {}
+[1.026545] (-) TimerEvent: {}
+[1.128129] (-) TimerEvent: {}
+[1.231111] (-) TimerEvent: {}
+[1.333027] (-) TimerEvent: {}
+[1.435807] (-) TimerEvent: {}
+[1.538579] (-) TimerEvent: {}
+[1.586768] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.639101] (-) TimerEvent: {}
+[1.741281] (-) TimerEvent: {}
+[1.843802] (-) TimerEvent: {}
+[1.948317] (-) TimerEvent: {}
+[2.049956] (-) TimerEvent: {}
+[2.152542] (-) TimerEvent: {}
+[2.254911] (-) TimerEvent: {}
+[2.357231] (-) TimerEvent: {}
+[2.459129] (-) TimerEvent: {}
+[2.561743] (-) TimerEvent: {}
+[2.663802] (-) TimerEvent: {}
+[2.741638] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.764118] (-) TimerEvent: {}
+[2.834325] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.864711] (-) TimerEvent: {}
+[2.966634] (-) TimerEvent: {}
+[3.068892] (-) TimerEvent: {}
+[3.178738] (-) TimerEvent: {}
+[3.280837] (-) TimerEvent: {}
+[3.382459] (-) TimerEvent: {}
+[3.484798] (-) TimerEvent: {}
+[3.587151] (-) TimerEvent: {}
+[3.651396] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.687435] (-) TimerEvent: {}
+[3.695785] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.699849] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.705043] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.745258] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.787913] (-) TimerEvent: {}
+[3.889503] (-) TimerEvent: {}
+[3.991391] (-) TimerEvent: {}
+[4.095204] (-) TimerEvent: {}
+[4.197045] (-) TimerEvent: {}
+[4.300786] (-) TimerEvent: {}
+[4.403464] (-) TimerEvent: {}
+[4.505129] (-) TimerEvent: {}
+[4.579416] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.605515] (-) TimerEvent: {}
+[4.615813] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.618642] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.623088] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.706155] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.708749] (-) TimerEvent: {}
+[4.810664] (-) TimerEvent: {}
+[4.912812] (-) TimerEvent: {}
+[5.015114] (-) TimerEvent: {}
+[5.117530] (-) TimerEvent: {}
+[5.219859] (-) TimerEvent: {}
+[5.321570] (-) TimerEvent: {}
+[5.424329] (-) TimerEvent: {}
+[5.526649] (-) TimerEvent: {}
+[5.628763] (-) TimerEvent: {}
+[5.732668] (-) TimerEvent: {}
+[5.837060] (-) TimerEvent: {}
+[5.938515] (-) TimerEvent: {}
+[6.040130] (-) TimerEvent: {}
+[6.141818] (-) TimerEvent: {}
+[6.244167] (-) TimerEvent: {}
+[6.353813] (-) TimerEvent: {}
+[6.455282] (-) TimerEvent: {}
+[6.557423] (-) TimerEvent: {}
+[6.616188] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.657653] (-) TimerEvent: {}
+[6.759226] (-) TimerEvent: {}
+[6.867342] (-) TimerEvent: {}
+[6.968873] (-) TimerEvent: {}
+[7.070225] (-) TimerEvent: {}
+[7.171523] (-) TimerEvent: {}
+[7.272821] (-) TimerEvent: {}
+[7.377212] (-) TimerEvent: {}
+[7.421867] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.477407] (-) TimerEvent: {}
+[7.578752] (-) TimerEvent: {}
+[7.680337] (-) TimerEvent: {}
+[7.781907] (-) TimerEvent: {}
+[7.883648] (-) TimerEvent: {}
+[7.985498] (-) TimerEvent: {}
+[8.087279] (-) TimerEvent: {}
+[8.130611] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.187639] (-) TimerEvent: {}
+[8.289432] (-) TimerEvent: {}
+[8.391608] (-) TimerEvent: {}
+[8.494526] (-) TimerEvent: {}
+[8.598495] (-) TimerEvent: {}
+[8.700328] (-) TimerEvent: {}
+[8.802012] (-) TimerEvent: {}
+[8.903476] (-) TimerEvent: {}
+[9.005695] (-) TimerEvent: {}
+[9.107389] (-) TimerEvent: {}
+[9.209195] (-) TimerEvent: {}
+[9.311245] (-) TimerEvent: {}
+[9.381960] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.411675] (-) TimerEvent: {}
+[9.513522] (-) TimerEvent: {}
+[9.584706] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.589083] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.591217] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.613879] (-) TimerEvent: {}
+[9.716299] (-) TimerEvent: {}
+[9.779805] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.784030] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.816804] (-) TimerEvent: {}
+[9.821039] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.878202] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.910477] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.917169] (-) TimerEvent: {}
+[10.018872] (-) TimerEvent: {}
+[10.082319] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.084967] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.113524] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.119375] (-) TimerEvent: {}
+[10.157351] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.219917] (-) TimerEvent: {}
+[10.237865] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[10.264648] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/fola/bot_ws/src/my_bot/build/my_bot\n'}
+[10.309968] (my_bot) CommandEnded: {'returncode': 0}
+[10.331869] (-) TimerEvent: {}
+[10.336736] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[10.345102] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fola/bot_ws/src/my_bot/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/fola/bot_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'fola'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs/lib:/home/fola/bot_ws/install/diffdrive_arduino/lib:/home/fola/bot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fola'), ('OLDPWD', '/home/fola'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1001'), ('SYSTEMD_EXEC_PID', '1154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fola/bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fola'), ('JOURNAL_STREAM', '8:21121'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fola:@/tmp/.ICE-unix/1127,unix/fola:/tmp/.ICE-unix/1127'), ('INVOCATION_ID', 'd4ac33606eff4242a06453a8345a6858'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.73MO12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1919c12-d32a-400f-807d-0d6d5a221850'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fola/bot_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fola/bot_ws/build/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/fola/bot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[10.432442] (-) TimerEvent: {}
+[10.534640] (-) TimerEvent: {}
+[10.636873] (-) TimerEvent: {}
+[10.739333] (-) TimerEvent: {}
+[10.844699] (-) TimerEvent: {}
+[10.910029] (my_bot) CommandEnded: {'returncode': 0}
+[10.919403] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[10.945402] (-) TimerEvent: {}
+[11.023791] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fola/bot_ws/src/my_bot/build/my_bot'], 'cwd': '/home/fola/bot_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'fola'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs/lib:/home/fola/bot_ws/install/diffdrive_arduino/lib:/home/fola/bot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fola'), ('OLDPWD', '/home/fola'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1001'), ('SYSTEMD_EXEC_PID', '1154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fola/bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fola'), ('JOURNAL_STREAM', '8:21121'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fola:@/tmp/.ICE-unix/1127,unix/fola:/tmp/.ICE-unix/1127'), ('INVOCATION_ID', 'd4ac33606eff4242a06453a8345a6858'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.73MO12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1919c12-d32a-400f-807d-0d6d5a221850'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fola/bot_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fola/bot_ws/build/serial_motor_demo:/home/fola/bot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/fola/bot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fola/bot_ws/install/serial_motor_demo_msgs:/home/fola/bot_ws/install/diffdrive_arduino:/home/fola/bot_ws/install/serial:/home/fola/bot_ws/install/rplidar_ros:/home/fola/bot_ws/install/my_bot:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[11.045897] (-) TimerEvent: {}
+[11.104656] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.110889] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.117576] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[11.148881] (-) TimerEvent: {}
+[11.197934] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/forklift_rviz_config.rviz\n'}
+[11.249630] (-) TimerEvent: {}
+[11.277492] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/forklift_slam_config.rviz\n'}
+[11.350122] (-) TimerEvent: {}
+[11.356088] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[11.439252] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[11.450349] (-) TimerEvent: {}
+[11.519434] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[11.550876] (-) TimerEvent: {}
+[11.606337] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[11.651441] (-) TimerEvent: {}
+[11.701543] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/meshes/forklift_chassis.stl\n'}
+[11.751821] (-) TimerEvent: {}
+[11.847265] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[11.852130] (-) TimerEvent: {}
+[11.955676] (-) TimerEvent: {}
+[11.962142] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[12.056852] (-) TimerEvent: {}
+[12.062793] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[12.151319] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[12.157206] (-) TimerEvent: {}
+[12.235026] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[12.257766] (-) TimerEvent: {}
+[12.343145] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[12.358195] (-) TimerEvent: {}
+[12.444444] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[12.458614] (-) TimerEvent: {}
+[12.539780] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[12.560992] (-) TimerEvent: {}
+[12.665476] (-) TimerEvent: {}
+[12.681162] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[12.765057] (-) TimerEvent: {}
+[12.770395] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[12.848331] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[12.865366] (-) TimerEvent: {}
+[12.934643] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[12.965918] (-) TimerEvent: {}
+[13.015348] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[13.066904] (-) TimerEvent: {}
+[13.102980] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[13.167085] (-) TimerEvent: {}
+[13.180292] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[13.267252] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[13.269268] (-) TimerEvent: {}
+[13.341942] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[13.369557] (-) TimerEvent: {}
+[13.421051] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[13.470139] (-) TimerEvent: {}
+[13.499373] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[13.570715] (-) TimerEvent: {}
+[13.589610] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[13.672887] (-) TimerEvent: {}
+[13.699340] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/package.xml\n'}
+[13.773008] (-) TimerEvent: {}
+[13.804971] (my_bot) CommandEnded: {'returncode': 0}
+[13.875718] (-) TimerEvent: {}
+[13.979730] (-) TimerEvent: {}
+[14.074667] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[14.081677] (-) TimerEvent: {}
+[14.082792] (-) EventReactorShutdown: {}

@@ -1,0 +1,68 @@
+[0.150s] Invoking command in '/home/fola/bot_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/fola/bot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fola/bot_ws/src/my_bot/install/my_bot
+[1.581s] -- The C compiler identification is GNU 11.4.0
+[2.735s] -- The CXX compiler identification is GNU 11.4.0
+[2.828s] -- Detecting C compiler ABI info
+[3.645s] -- Detecting C compiler ABI info - done
+[3.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.694s] -- Detecting C compile features
+[3.699s] -- Detecting C compile features - done
+[3.738s] -- Detecting CXX compiler ABI info
+[4.573s] -- Detecting CXX compiler ABI info - done
+[4.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.614s] -- Detecting CXX compile features
+[4.618s] -- Detecting CXX compile features - done
+[4.700s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.618s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.415s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.126s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.375s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.578s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.582s] -- Configured cppcheck include dirs: 
+[9.585s] -- Configured cppcheck exclude dirs and/or files: 
+[9.774s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.778s] -- Configured cpplint exclude dirs and/or files: 
+[9.816s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.871s] -- Added test 'lint_cmake' to check CMake code style
+[9.904s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.076s] -- Added test 'uncrustify' to check C / C++ code style
+[10.092s] -- Configured uncrustify additional arguments: 
+[10.107s] -- Added test 'xmllint' to check XML markup files
+[10.154s] -- Configuring done
+[10.231s] -- Generating done
+[10.258s] -- Build files have been written to: /home/fola/bot_ws/src/my_bot/build/my_bot
+[10.306s] Invoked command in '/home/fola/bot_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/fola/bot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fola/bot_ws/src/my_bot/install/my_bot
+[10.343s] Invoking command in '/home/fola/bot_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/fola/bot_ws/src/my_bot/build/my_bot -- -j4 -l4
+[10.904s] Invoked command in '/home/fola/bot_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/fola/bot_ws/src/my_bot/build/my_bot -- -j4 -l4
+[11.025s] Invoking command in '/home/fola/bot_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/fola/bot_ws/src/my_bot/build/my_bot
+[11.098s] -- Install configuration: ""
+[11.104s] -- Execute custom install script
+[11.111s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[11.195s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/forklift_rviz_config.rviz
+[11.271s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/forklift_slam_config.rviz
+[11.350s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[11.434s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[11.514s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[11.600s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[11.695s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/meshes/forklift_chassis.stl
+[11.841s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[11.956s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[12.056s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[12.144s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[12.228s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[12.337s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[12.439s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[12.533s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[12.677s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[12.764s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[12.842s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[12.928s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[13.009s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[13.096s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[13.174s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[13.261s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[13.335s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[13.415s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[13.494s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[13.584s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[13.695s] -- Symlinking: /home/fola/bot_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[13.799s] Invoked command in '/home/fola/bot_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fola/bot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/fola/bot_ws/src/my_bot/build/my_bot
