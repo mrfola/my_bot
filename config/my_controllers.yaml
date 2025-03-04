@@ -19,7 +19,7 @@ diff_cont:
     left_wheel_names: ['left_wheel_joint']
     right_wheel_names: ['right_wheel_joint']
     wheel_separation: 0.110 #I'm not sure (from my xacro file, I no sabi which kain calculation I do. But from figma, it is 109mm)
-    wheel_radius: 0.0335
+    wheel_radius: 0.03305
 
     use_stamped_vel: false
 
